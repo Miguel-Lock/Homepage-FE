@@ -19,6 +19,12 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Arial, sans-serif;
+    color: #202A25
+}
+
+.content {
+    margin: 0% 10%;
 }
 
 .header-buttons {
@@ -37,15 +43,7 @@ footer {
     padding-left: 4rem;
     padding-right: 4rem;
     margin-top: auto;
-}
-
-
-.footer-text {
     color: #7e846b;
-}
-
-.body-text {
-    color: #202A25;
     font-family: Arial, sans-serif;
 }
 
@@ -64,4 +62,8 @@ footer {
 
 .btn:hover {
     background-color: #646854;
+}
+
+.defaultTextColor {
+    color: #7e846b;
 }
