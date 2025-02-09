@@ -1,5 +1,10 @@
+:root {
+    --primary-color: #7e846b;
+    --secondary-color: #202A25;
+}
+
 header {
-    background-color: #202A25;
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     position: sticky;
@@ -9,18 +14,18 @@ header {
 }
 
 .header-text {
-    color: #7e846b;
+    color: var(--primary-color);
     font-family: 'Brush Script MT', cursive;
 }
 
 body {
-    background-color: #7e846b;
+    background-color: var(--primary-color);
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    color: #202A25
+    color: var(--secondary-color);
 }
 
 .content {
@@ -34,7 +39,7 @@ body {
 }
 
 footer {
-    background-color: #202A25;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: row;
     position: relative;
@@ -43,12 +48,12 @@ footer {
     padding-left: 4rem;
     padding-right: 4rem;
     margin-top: auto;
-    color: #7e846b;
+    color: var(--primary-color);
     font-family: Arial, sans-serif;
 }
 
 .btn{
-    background-color: #7e846b;
+    background-color: var(--primary-color);
     border: none;
     padding: 15px 15px;
     border-radius: 8px;
@@ -65,5 +70,5 @@ footer {
 }
 
 .defaultTextColor {
-    color: #7e846b;
+    color: var(--primary-color);
 }
