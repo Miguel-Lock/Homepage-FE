@@ -1,6 +1,7 @@
 :root {
     --primary-color: #7e846b;
     --secondary-color: #202A25;
+    --secondary-accent: #2b3932;
 }
 
 header {
@@ -38,6 +39,22 @@ body {
     justify-content: space-between;
 }
 
+.button-list-class {
+    background-color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    padding: 15px 15px;
+    width: 100%;
+    font-size: large;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    color: var(--primary-color)
+}
+
+.button-list-class:hover {
+    background-color: var(--secondary-accent);
+}
+
 footer {
     background-color: var(--secondary-color);
     display: flex;
@@ -61,8 +78,8 @@ footer {
     margin-right: 4rem;
     cursor: pointer;
     font-family: Arial, sans-serif;
-    font-size: medium;
-    
+    font-size: large;
+    color: var(--secondary-color);
 }
 
 .btn:hover {
