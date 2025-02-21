@@ -1,0 +1,16 @@
+img {
+    max-width: 39vw;
+    height: auto;
+}
+
+.comparison {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compared {
+    /*padding: 20px 0px 20px 20px;*/
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
